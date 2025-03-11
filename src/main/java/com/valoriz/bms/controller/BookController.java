@@ -27,7 +27,7 @@ import com.valoriz.bms.service.BookService;
 
 @RestController
 @RequestMapping("/book")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://book-management-system-seven-nu.vercel.app")
 public class BookController {
 
 	@Autowired
